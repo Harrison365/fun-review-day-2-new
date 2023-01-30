@@ -33,7 +33,7 @@ xdescribe("generateMultiples()", () => {
 });
 
 // change 'xdescribe' to 'describe' to run the tests!
-xdescribe("secureFunc()", () => {
+describe("secureFunc()", () => {
   test("returns a new function", () => {
     const securedFunc = secureFunc();
     expect(typeof securedFunc).toBe("function");
